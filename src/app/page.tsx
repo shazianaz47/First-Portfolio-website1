@@ -1,5 +1,5 @@
 import React from 'react';
-import next from "next";
+
 
 import Header from '../app/components/Header';
 import Footer from '../app/components/Footer';
@@ -12,6 +12,7 @@ export default function Home() {
   return (
     <div>
        <Header/>
+       
       <main>
         <section className="bg-gray-900 text-white text-center p-16">
           <h1 className="text-5xl font-bold">Shazia Naz</h1>
@@ -20,6 +21,7 @@ export default function Home() {
              <About/>         
         <Skills/>
         <Portfolio/> 
+        <Contact/>
       </main>
       <Footer/>
     </div>
